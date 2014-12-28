@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="PostgreSQL - tutor@localhost" uuid="c93ef1e7-8b13-46ea-bd8d-2f84f651f171">
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <schema-pattern>tutor.pg_catalog tutor.public</schema-pattern>
+      <default-schemas>tutor.pg_catalog tutor.public</default-schemas>
+    </data-source>
+  </component>
+</project>

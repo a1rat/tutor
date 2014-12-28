@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app
+
+         version="3.1">
+
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.css</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>*.jpg</url-pattern>
+    </servlet-mapping>
+
+    <!--Index-->
+    <servlet>
+        <servlet-name>index.jsp</servlet-name>
+        <jsp-file>/index.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>index.jsp</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+    <!--Login-->
+    <servlet>
+        <servlet-name>ServletLogin</servlet-name>
+        <servlet-class>ServletLogin</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletLogin</servlet-name>
+        <url-pattern>/servlet</url-pattern>
+    </servlet-mapping>
+
+    <!--Logout-->
+    <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>ServletLogout</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Logout</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+
+    <!--Registration-->
+    <servlet>
+        <servlet-name>registration</servlet-name>
+        <jsp-file>/registration.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>registration</servlet-name>
+        <url-pattern>/reg</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ServletRegistration</servlet-name>
+        <servlet-class>ServletRegistration</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletRegistration</servlet-name>
+        <url-pattern>/servletReg</url-pattern>
+    </servlet-mapping>
+
+    <!--Search-->
+    <servlet>
+        <servlet-name>search</servlet-name>
+        <jsp-file>/search.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>search</servlet-name>
+        <url-pattern>/search</url-pattern>
+    </servlet-mapping>
+
+    <!--TutorInfo-->
+    <servlet>
+        <servlet-name>tutorInfo</servlet-name>
+        <jsp-file>/tutorInfo.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>tutorInfo</servlet-name>
+        <url-pattern>/tutorInfo</url-pattern>
+    </servlet-mapping>
+
+    <!--Отзыв-->
+    <servlet>
+        <servlet-name>ServletOtz</servlet-name>
+        <servlet-class>ServletOtz</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletOtz</servlet-name>
+        <url-pattern>/otz</url-pattern>
+    </servlet-mapping>
+
+    <!--Заявки-->
+    <servlet>
+        <servlet-name>ServletZ</servlet-name>
+        <servlet-class>ServletZ</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletZ</servlet-name>
+        <url-pattern>/z</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Servlet2</servlet-name>
+        <servlet-class>Servlet2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Servlet2</servlet-name>
+        <url-pattern>/2</url-pattern>
+    </servlet-mapping>
+
+    <!--Кабинет-->
+    <servlet>
+        <servlet-name>lk</servlet-name>
+        <jsp-file>/lk.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>lk</servlet-name>
+        <url-pattern>/lk</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>d</servlet-name>
+        <jsp-file>/d.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>d</servlet-name>
+        <url-pattern>/d</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>se</servlet-name>
+        <servlet-class>Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>se</servlet-name>
+        <url-pattern>/s</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>/index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

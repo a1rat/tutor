@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+}
+div {
+    margin: 0 auto;
+    width: 980px;
+    text-align: left;
+}
+#header {
+    background: url('header.jpg');
+    width: 980px;
+    height: 150px;
+    background-position: center;
+}
+#header_menu {
+    margin-top: -20px;
+    background-color: darkcyan;
+    width: 980px;
+    height: 35px;
+}
+#s_menu a {
+    color: aliceblue;
+}
+#s_menu li {
+    margin-top: 10px;
+    display: inline;
+}
+#s_menu form {
+    margin-top: 5px;
+    display: inline;
+    width: 240px;
+    height: 20px;
+}
+#center form {
+    align-items: center;
+}
+#logout {
+    float: right;
+}

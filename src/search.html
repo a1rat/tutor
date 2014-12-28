@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Найти репетитора</title>
+    <link rel="stylesheet" href="../web/style.css">
+    <link rel="stylesheet" href="../web/css/bootstrap.min.css">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+</head>
+<body>
+<div id="header"></div>
+<div id="header_menu">
+    <ul id="s_menu">
+        <li>
+            <a href="index.html">Главная</a>
+        </li>
+        <li>
+            <a href="search.html">Найти репетитора</a>
+        </li>
+        <li>
+            <a href="registration.html">Регистрация</a>
+        </li>
+    </ul>
+</div>
+<div id="toolbar">
+    <ul>
+        <li><h4>Предметы</h4></li>
+        <li><a href="search.html?class=1&cities=1">Математика</a> </li>
+    </ul>
+</div>
+<div id="center">
+    <center>
+        <form>
+            ФИО
+            <input type="text" name="name">
+            <p></p>
+            Город
+            <select name="cities">
+                <option value="1">Казань</option>
+                <option value="2">Москва</option>
+                <option value="3">Санкт-Петербург</option>
+            </select>
+            <p></p>
+            Email
+            <input type="email" name="email">
+            <p></p>
+            Предметы
+            <input type="checkbox" name="class" value="1">математика<br>
+            <input type="checkbox" name="class" value="2">физика<br>
+            <input type="checkbox" name="class" value="3">информатика<br>
+            <input type="checkbox" name="class" value="4">русский язык<br>
+            <input type="checkbox" name="class" value="5">литература<br>
+            <p></p>
+            Дополнительная информация
+            <textarea name="info"></textarea>
+            <p></p>
+            <input type="submit" value="Найти">
+        </form>
+    </center>
+</div>
+</body>
+</html>
